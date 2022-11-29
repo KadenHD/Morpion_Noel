@@ -513,6 +513,7 @@ Public Class Morpion
                 Exit While
             End If
         End While
+        BT_Reset.Enabled = True
     End Sub
 
     Private Sub RB_premier_joueur_CheckedChanged(ByVal sender As System.Object, ByVal e As System.EventArgs)
